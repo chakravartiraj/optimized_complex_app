@@ -1,6 +1,24 @@
 # Optimized Complex App
 A demo Flutter app showcasing advanced state management using Provider, performance optimizations, and CI/CD integration.
 
+## Repository Structure:
+
+optimized_complex_app/
+├── lib/
+│   ├── main.dart
+│   ├── models/
+│   │   └── employee.dart
+│   ├── providers/
+│   │   └── employee_provider.dart
+│   └── screens/
+│       └── home_screen.dart
+├── test/
+│   └── widget_test.dart
+├── pubspec.yaml
+├── analysis_options.yaml
+├── README.md
+└── codemagic.yaml
+
 ## Features
 
 - Centralized state management with Provider.
@@ -10,13 +28,17 @@ A demo Flutter app showcasing advanced state management using Provider, performa
 ## Getting Started
 
 1. **Clone the Repository:**
-   ``` git clone https://github.com/chakravartiraj/optimized_complex_app.git
+   ``` bash
+   git clone https://github.com/chakravartiraj/optimized_complex_app.git
 2. **Install Dependencies:**
-   ``` flutter pub get
+   ``` bash
+   flutter pub get
 3. **Run the App:**
-   ``` flutter run
+   ``` bash
+   flutter run
 4. **Run Tests:**
-   ``` flutter test
+   ``` bash
+   flutter test
 
 ## CI/CD Integration
 This project includes a sample codemagic.yaml file for configuring your CI/CD pipeline with Codemagic.
